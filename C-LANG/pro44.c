@@ -2,22 +2,12 @@
 #include<stdio.h>
 int main()
 {
-    int number;
+    int nm;
 
-    printf("enter the number : ");
-    scanf("%d",&number);
+    printf("Enter Number : ");
+    scanf("%d",&nm);
 
-    if(number<0)
-    {
-        printf("number is even\n");
-    }
-    else if(number>=9)
-    {
-        printf("number is old\n");
-    }
-    else
-    {
-        printf("number is even old\n");
-    }
-    return 0;
+    nm%2==0 ? printf("NUMBER IS EVEN") : printf("NUMBER IS ODD");
+
+return 0;
 }

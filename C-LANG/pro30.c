@@ -4,14 +4,14 @@
 #include<stdio.h>
 int main()
 {
-    int year,day;
+    float year,day;
 
     printf("enter number of year: ");
-    scanf("%d",&year);
+    scanf("%f",&year);
 
-    day=year*365;
+    day=year*365.00;
    
 
-    printf("day=%d year=%d",year,day);
+    printf("day=%.2f year=%.2f",year,day);
 }
 

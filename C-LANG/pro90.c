@@ -1,32 +1,26 @@
-//WAP to find reverse of string using recursion
+// WAP to find reverse of string using recursion 
+
 
 #include<stdio.h>
-#include<string.h>
+void revstr(char *);
 
-void reversestring(char str[], int index,int length)
-{
-    if (index==length)
-    {
-        return;
-    }
-
-    reversestring(str,index+1,length);
-    putchar(str[index]);
-}
-    
 int main()
 {
-    char str[100];
-
-    printf("Enter a string: ");
-    fgets(str,sizeof(str),stdin);
-
-
-    str[strcspn(str, "\n")]='\0';
-
-    printf("Reversed string: ");
-    reverseString(str, 0, strlen(str));
-    printf("\n");
-
+    char str[50];
+    printf("Enter string : ");
+    gets(str);
+    revstr(str);
+    
 return 0;
+}
+
+void revstr(char *str2)
+{
+    
+    if(*str2)
+    {
+        revstr(str2+1);
+        printf("%c",*str2);
+    }
+
 }

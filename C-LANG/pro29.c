@@ -3,17 +3,17 @@
 #include<stdio.h>
 int main()
 {
-    int minutes,second,hours,minutes1;
+    float minutes,second,hours,minutes1;
 
     printf("enter no of minutes: ");
-    scanf("%d",&minutes);
+    scanf("%f",&minutes);
 
     printf("enter minutes hours: ");
-    scanf("%d",&minutes1);
+    scanf("%f",&minutes1);
 
-    second=minutes*60;
-    hours=minutes1/60;
+    second=minutes*60.00;
+    hours=minutes1/60.00;
    
 
-    printf("minutes =%d second=%d hours=%d" ,minutes,second,hours);
+    printf(" second=%.2f hours=%.2f" ,second,hours);
 }
