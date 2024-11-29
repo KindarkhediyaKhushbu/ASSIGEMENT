@@ -86,7 +86,8 @@ int main()
     bank account1("khushbu",12345,"saving",1000);
 
     account1.depo(20000);
-    
+    account1.withdrow(5000);
+    account1.displayaccodetails();
 
             
     return 0;

@@ -1,79 +1,24 @@
-//WAP to create simple calculator using class
+// Write a program that asks for two numbers and displays their sum. Ensure this is
+// done after setting up the IDE (like Dev C++ or CodeBlocks
 
-#include<iostream>
-
+#include <iostream>
 using namespace std;
 
-class cal
-{
-    float a,b;
-public:
-    void result()
-    {
-        cout<<"Enter frist number: ";
-        cin>>a;
-        cout<<"Enter second number: ";
-        cin>>b;
-    }
+int main() {
+    double num1, num2, sum;
 
 
-    float add()
-    {
-         return a+b;
-    }
+    cout << "Enter the first number: ";
+    cin >> num1;
 
-    float sub()
-    {
-        return a-b;
-    }
+    cout << "Enter the second number: ";
+    cin >> num2;
 
-    float mul()
-    {
-        return a*b;
-    }
-    float div()
-    {
-        return a/b;
-    }
-};
+    
+    sum = num1 + num2;
 
 
- int main()
- {
-    int choice;
-    cal c;
-    cout<<"Enter 1 add 2 number"<<
-    "\nEnter 2t to subtract 2number"<<
-    "\nEnter 3 to multipy 3 number"<<
-    "\nEnter 4 to divvide 4 number"<<
-    "\nEnter 0 to Exit";
+    cout << "The sum of " << num1 << " and " << num2 << " is: " << sum << endl;
 
-    do
-    {
-        cout<<"\n Entre choice: ";
-        cin>>choice;
-
-    switch (choice)
-    {
-    case 1:
-        c.result();
-        cout<<"result:"<<c.add()<<endl;
-        break;
-    case 2:
-        c.result();
-        cout<<"result:"<<c.sub()<<endl;
-        break;
-    case 3:
-        c.result();
-        cout<<"result:"<<c.mul()<<endl;
-    case 4:
-        c.result();
-        cout<<"result"<<c.div()<<endl;
-    default:
-        cout<<"invalid input!";
-        break;
-    }
-    }while (choice>=1 && choice<=4);
     return 0;
-
- }
+}
