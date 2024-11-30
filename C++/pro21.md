@@ -1,4 +1,4 @@
-<b> What is the difference between for, while, and do-while loops in C++?</b>
+### What is the difference between for, while, and do-while loops in C++?</b>
 
 | Feature      | for Loop	       |while Loop	|do-while Loop|
 | -------- | ---------- | --------| --------|

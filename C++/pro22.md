@@ -1,4 +1,4 @@
-<b>*How are break and continue statements used in loops? Provide examples.
+### How are break and continue statements used in loops? Provide examples.
 </b>
 
 - The break and continue statements are commonly used within loops to control the flow of execution..

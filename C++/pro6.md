@@ -1,4 +1,4 @@
-<b>2. List and explain the main advantages of OOP over POP.</b>
+### 2. List and explain the main advantages of OOP over POP.</b>
 
 
 | Advantage      |  OOP       |    POP      |

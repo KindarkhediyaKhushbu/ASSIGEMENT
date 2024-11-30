@@ -1,5 +1,5 @@
 
-<b>1. What are the key differences between Procedural Programming and Object-OrientedProgramming (OOP)?
+### 1. What are the key differences between Procedural Programming and Object-OrientedProgramming (OOP)?
 
 
 

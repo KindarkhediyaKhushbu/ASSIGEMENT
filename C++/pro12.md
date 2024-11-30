@@ -1,4 +1,4 @@
-<b><h1>What are the different data types available in C++? Explain with examples. </b></h1>
+### What are the different data types available in C++? Explain with examples. </b></h1>
 
 <b> * C++ supports the following data types:
 
