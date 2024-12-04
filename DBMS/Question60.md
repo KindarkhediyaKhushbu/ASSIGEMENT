@@ -1,0 +1,1 @@
+### Write a stored procedure that accepts course_id as input and returns the course details.

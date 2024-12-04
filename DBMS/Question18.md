@@ -1,0 +1,1 @@
+### Explain the CREATE command and its syntax

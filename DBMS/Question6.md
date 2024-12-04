@@ -1,6 +1,6 @@
 ### Lab 2: Insert five records into the students table and retrieve all records using the SELECT statement
 
-```c
+```sql
 INSERT INTO student (student_id,student_name,age,class,address)VALUES
 (1, 'khushbu', 21, 1, 'rajkot'),
 (2, 'Arati', 21, 2, 'junagadh'),

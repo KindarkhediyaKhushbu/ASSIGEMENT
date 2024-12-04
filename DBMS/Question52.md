@@ -1,0 +1,1 @@
+### Use a LEFT JOIN to show all departments, even those without employees

@@ -1,0 +1,1 @@
+###  How can you add, modify, and drop columns from a table using ALTER?

@@ -1,0 +1,1 @@
+### Create a table courses with columns: course_id, course_name, andcourse_credits. Set the course_id as the primary key

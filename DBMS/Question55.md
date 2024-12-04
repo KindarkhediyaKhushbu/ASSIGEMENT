@@ -1,0 +1,1 @@
+### Group employees by department and count the number of employees in each department using GROUP BY

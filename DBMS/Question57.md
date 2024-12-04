@@ -1,0 +1,1 @@
+### What is a stored procedure in SQL, and how does it differ from a standard SQL query?
