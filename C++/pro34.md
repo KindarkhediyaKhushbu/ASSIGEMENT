@@ -6,10 +6,12 @@
 
 <b>Explain the difference between single-dimensional and multi dimensional arrays :</b>
 
-|Aspect|Single-Dimensional Array	 |Multi-Dimensional Array|
-| -------- | -------- | -------|
-|Definition|Store a single list of the element of a similar data type.|Store a ‘list of lists’ of the element of a similar data type.|
-|Representation|Represent multiple data items as a list.|Represent multiple data items as a table consisting of rows and columns.|
-|Declaration|The declaration varies for different programming language:For C++,  datatypevariable_name[row]For Java,  datatype [] variable_name= new datatype[row]|The declaration varies for different programming language:For C++, datatype variable_name[row][column]For Java,  datatype [][] variable_name= new datatype[row][column]|
-|Dimension|One|Two|
-|Size(bytes)	|size of(datatype of the variable of the array) * size of the array|size of(datatype of the variable of the array)* the number of rows* the number of columns.|
+An array in C++ is a collection of elements of the same type stored in contiguous memory locations. Arrays allow efficient storage and access to multiple values using a single identifier.
+
+|Aspects| Single-dimensional | Multi-dimentional|
+| --- | --- | --- |
+Structure	|A simple list of elements.	|A table (2D), cube (3D), or higher-dimensional structure.
+Declaration	|data_type array_name[size];	|data_type array_name[size1][size2]...[sizeN];
+Access|	One index is needed: array_name[index]|	Multiple indices are needed: array_name[row][column]
+Visualization	|Linear (like a row of boxes).|	Grid-like (table) for 2D, or more complex shapes for higher dimensions.
+Use Case	|Ideal for storing a list of items.	|Suitable for tabular data, matrices, or multi-dimensional datasets.

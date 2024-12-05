@@ -1,0 +1,1 @@
+### What is a view in SQL, and how is it different from a table?

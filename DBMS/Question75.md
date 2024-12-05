@@ -1,0 +1,1 @@
+### Lab 1: Write a PL/SQL block using an IF-THEN condition to check the department of an employee.

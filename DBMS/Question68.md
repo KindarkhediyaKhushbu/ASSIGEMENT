@@ -1,0 +1,1 @@
+### Create a trigger to update the last_modified timestamp whenever an employee record is updated

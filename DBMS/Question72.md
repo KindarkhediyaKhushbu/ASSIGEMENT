@@ -1,0 +1,1 @@
+### Create a PL/SQL block that calculates the total sales from an orders table.

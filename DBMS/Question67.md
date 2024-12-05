@@ -1,0 +1,1 @@
+### Create a trigger to automatically log changes to the employees table when a new employee is added.

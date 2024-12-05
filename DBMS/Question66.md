@@ -1,0 +1,1 @@
+### Explain the difference between INSERT, UPDATE, and DELETE triggers
