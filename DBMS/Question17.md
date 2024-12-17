@@ -8,4 +8,4 @@
  |CREATE|Create database or its objects (table, index, function, views, store procedure, and triggers)|CREATE TABLE table_name (column1 data_type, column2 data_type, ...);|
  |DROP|Delete objects from the database|DROP TABLE table_name;|
  |ALTER|Alter the structure of the database|ALTER TABLE table_name ADD COLUMN column_name data_type;|
- |TRUNCATE|Remove all records from a table, including all spaces allocated for the records are removed||TRUNCATE TABLE table_name
+ |TRUNCATE|Remove all records from a table, including all spaces allocated for the records are removed|TRUNCATE TABLE table_name|

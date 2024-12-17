@@ -1,4 +1,4 @@
-## Lab 1: Create a new database named school_db and a table called students with the
+###  Lab 1: Create a new database named school_db and a table called students with the
 <b>following columns: student_id, student_name, age, class, and address.
 
 ```sql

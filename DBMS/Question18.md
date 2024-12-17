@@ -14,4 +14,5 @@
 ##### Example :
 ```sql
 CREATE TABLE student(student_id int, student_name varchar(20), age int ,class varchar(20),address varchar(50));
+
 ```

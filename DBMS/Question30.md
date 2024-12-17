@@ -29,7 +29,6 @@ WHERE condition;
 ##### Syntax:
 
 ```sql
-
 DELETE FROM table_name
 WHERE condition;
 ```

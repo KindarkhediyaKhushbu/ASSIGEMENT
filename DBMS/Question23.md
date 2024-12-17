@@ -19,4 +19,5 @@ To remove an existing column from a table, use the DROP COLUMN clause.
 
 ALTER TABLE table_name
 DROP COLUMN column_name;
+
 ```

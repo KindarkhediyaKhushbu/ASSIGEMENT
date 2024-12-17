@@ -6,7 +6,7 @@
 - Deletes an entire table, including its data, structure, and related constraints.
 
 ```sql
-DROP TABLE table_name;
+    DROP TABLE table_name;
 ```
 
 <b>DROP DATABASE:</b>
@@ -14,7 +14,7 @@ DROP TABLE table_name;
 
 ```sql
 
-DROP DATABASE database_name;
+    DROP DATABASE database_name;
 ```
 
 <b>DROP INDEX:</b>
@@ -22,13 +22,11 @@ DROP DATABASE database_name;
 
 ```sql
 
-DROP INDEX index_name;
+    DROP INDEX index_name;
 ```
 
 <b>DROP VIEW:</b>
 -  Removes a view from the database.
-
 ```sql
-
-DROP VIEW view_name;
+    DROP VIEW view_name;
 ```

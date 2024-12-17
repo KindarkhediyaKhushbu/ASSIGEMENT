@@ -12,10 +12,12 @@
 ```
 
 ##### 2. Importance in DELETE:
+
 - The DELETE command removes rows from a table. If no WHERE clause is provided, all rows in the table will be deleted.
 
 - The WHERE clause allows you to specify a condition to delete only specific rows, avoiding the accidental loss of all data in the table.
 
+<b>Example :</b>
 ```sql
     DELETE FROM employees;
 ```

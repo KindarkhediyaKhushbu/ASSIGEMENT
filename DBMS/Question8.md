@@ -4,14 +4,14 @@
 
 <b>Basic Syntax for SELECT statment : </b>
 
-sql
+```sql
 SELECT column1, column2, ... // select specific columns name
 FROM table_name;
+```
 
-
-sql
+```sql
 SELECT * FROM table_name;  // Select all columns from table_name
-
+```
 
 #### Write the general structure of an SQL SELECT statement
 
@@ -19,10 +19,11 @@ SELECT * FROM table_name;  // Select all columns from table_name
 
 <b>Basic Syntax for SELECT statment : </b>
 
-sql
+```sql
 SELECT column1, column2, ... // select specific columns name
 FROM table_name;
+```
 
-
-sql
+```sql
 SELECT * FROM table_name;  // Select all columns from table_name
+```
