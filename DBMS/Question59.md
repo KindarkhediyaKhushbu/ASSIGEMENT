@@ -2,12 +2,17 @@
 
 ```sql
 
-    DELIMITER $$
+CREATE PROCEDURE GetEmployeeByDepartment(IN dep_id INT)
+BEGIN
+    SELECT 
+        e.emp_id,
+        e.emp_name,
+        e.dep_id
+    FROM 
+        employee e
+    WHERE 
+        e.dep_id = dep_id;
+END //
 
-    create procedure GetEmployeeByDepartments(in dep_id int)
-    begin
-        select emp_id, emp_name,employee_salary,departments_id
-        from employee
-        where dep_id = dep_id;
-    end $$
-    DELIMITER $$
+DELIMITER ;
+```

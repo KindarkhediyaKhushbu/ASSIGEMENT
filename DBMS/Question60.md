@@ -1,13 +1,20 @@
 ### Write a stored procedure that accepts course_id as input and returns the course details.
 
 ```sql
-    DELIMITER $$
+    DELIMITER //
 
-    create procedure GetCourseDetailsById(in course_id int)
-    begin
-        select course_id, course_name, course_description, dep_id, course_duration
-        from courses
-    where course_id = course_id;
-end $$
+CREATE PROCEDURE GetCourseDetails(IN course_id INT)
+BEGIN
+    SELECT 
+        c.course_id,
+        c.course_name,
+        c.course_duration,
+        c.dep_id
+    FROM 
+        courses c
+    WHERE 
+        c.course_id = course_id;
+END //
 
 DELIMITER ;
+```

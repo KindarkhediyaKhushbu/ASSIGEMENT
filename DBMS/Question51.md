@@ -3,7 +3,9 @@
 ```sql
     //Create two tables:
 
-    create table departments(dep_id int primary key,dep_name varchar(20));
+    CREATE TABLE department(
+    dep_id int PRIMARY KEY,
+    dep_name VARCHAR(20) NOT NULL);
     
     insert into departments(dep_id,dep_name)value
     (1,'HR'),
@@ -13,18 +15,25 @@
 
     //second table:
 
-    create table employee(emp_id int primary key, emp_name varchar(50),dep_id int,foreign key(dep_id)references departments(dep_id));
-
-    insert into employee(emp_id,emp_name,dep_id)
+    create table employee(emp_id int primary key, emp_name varchar(50),emp_salary int,dep_id int,foreign key(dep_id)references department(dep_id));
+    
+    insert into employee(emp_id,emp_name,emp_salary,dep_id)
     value
-    (101,'jay',1),
-    (102,'ajay',2),
-    (103,'vijay',3),
-    (104,'sagar',4),
-    (105,'chetan',3);
+    (101,'jay',200000,1),
+    (102,'ajay',30000,2),
+    (103,'vijay',540000,3),
+    (104,'sagar',80000,4),
+    (105,'chetan',75000,3);
 
     //INNER JOIN to display employees 
 
-    select employee.emp_id, employee.emp_name, departments.dep_name from employee employee inner join departments departments on employee.dep_id=departments.dep_id;
+    SELECT 
+    e.emp_id, 
+    e.emp_name, 
+    d.dep_name
+    FROM 
+    employee e
+    INNER JOIN 
+    department d ON e.dep_id = d.dep_id;
 
 ```

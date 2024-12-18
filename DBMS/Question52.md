@@ -2,10 +2,14 @@
 
 
 ```sql
-    select departments.dep_id,departments.dep_name,employee.emp_id, employee.emp_name
-    from departments departments
-    left join employee employee
-    on departments.dep_id=employee.dep_id;
-
+    SELECT 
+    d.dep_id, 
+    d.dep_name, 
+    e.emp_id, 
+    e.emp_name
+    FROM 
+    department d
+    LEFT JOIN 
+    employee e ON d.dep_id = e.dep_id;
 
 ```
