@@ -5,4 +5,5 @@
     BEGIN
         SELECT COUNT(*) INTO total_employee FROM employee;
         DBMS_OUTPUT.PUT_LINE('Total number of employees: ' || total_employee);
-    END; 
+    END;
+``` 
