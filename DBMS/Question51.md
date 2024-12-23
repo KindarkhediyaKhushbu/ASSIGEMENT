@@ -1,7 +1,7 @@
 ###  Create two tables: departments and employees. Perform an INNER JOIN to display employees along with their respective departments.
 
 ```sql
-    //Create two tables:
+    //Create tables:
 
     CREATE TABLE department(
     dep_id int PRIMARY KEY,
